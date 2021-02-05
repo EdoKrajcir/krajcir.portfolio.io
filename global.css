@@ -89,7 +89,6 @@ a{
   background-color: rgb(247, 250, 232);
 }
 
-
 .star-scroll a{
   color: rgb(247, 250, 232);
   transition: 200ms;
@@ -99,8 +98,6 @@ a{
   text-decoration: none;
   transform: scale(1.2);
 }
-
-
 
 
 @keyframes shrink-text
