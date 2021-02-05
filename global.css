@@ -1,9 +1,8 @@
-/* CSS used here will be applied after bootstrap.css */
-html,body {
-    width: 100%;
-    padding-top: 0px;
-    background-color: rgb(34, 48, 59);
-    scroll-behavior: smooth;
+
+html, body{
+  background-color: rgb(34, 48, 59);
+  scroll-behavior: smooth;
+  color: rgb(247, 250, 232);
 }
 
 .img-shadow{
@@ -54,7 +53,7 @@ html,body {
 
 @media (max-width: 991px) {
   .star-scroll{
-    bottom:70px;
+    bottom:55px;
   }
 }
 
@@ -65,106 +64,12 @@ html,body {
   animation: expand-text 150ms forwards;
 }
 
-.star-text h1{
+h1{
   font-weight: bold;
 }
 
 .star-text .hover-letter:hover{
   animation: shrink-text 150ms forwards;
-}
-
-.nav-shrinked {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.navbar {
-    padding-top: 1em;
-    padding-bottom: 1em; 
-  }
-
-.nav-toggle, .navbar-brand{
-  font-size: 2rem;
-}
-
-
-.nav-item:hover{
-  border-bottom: 3px solid red;
-}
-
-.navbar-toggler{
-  border: 0;
-  border-radius: 0;
-}
-
-  .lightblue-box{
-      width: 100%;
-      min-height: 90vh;
-      background-color: rgb(232, 247, 250);
-  }
-
-  .lightgrey-box{
-    width: 100%;
-    min-height: 90vh;
-    background-color: rgb(250, 250, 250);
-}
-
-.white-box{
-  width: 100%;
-  min-height: 90vh;
-  background-color: rgb(255, 255, 255);
-}
-
-ul{
-      list-style-type: none;
-  }
-
-.home-img-container{
-  position: relative;
-}
-
-.frosted-box-img-lg{
-  position: absolute;
-  right: 50%;
-  bottom: 50%;
-  transform: translate(100%, 50%);
-  background-color: rgba(255, 255, 255, .15);  
-  backdrop-filter: blur(5px);
-  box-shadow: 0.5vmin 0.5vmin 8px 0 rgba(0, 0, 0, .3);
-  color: white;
-  padding: 3vmin;
-}
-
-.frosted-nav-dark{
-  background-color: rgba(255, 255, 255, .50);  
-  backdrop-filter: blur(5px);
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .3);
-  color: white;
-}
-
-footer>img{
-  filter: brightness(85%);
-}
-
-.portrait{
-  width: 15vmin;
-}
-
-.frosted-box-img-lg h5{
-  font-size: 3vmin;
-}
-
-img{
-  width: 'auto';
-  height: 'auto';
-}
-
-nav, #wrapper{
-  transition: 200ms ease;
-}
-
-.dark-bg{
-  background-color: #090A0F;
 }
 
 a{
@@ -174,18 +79,19 @@ a{
 .contact-me{
   font-weight: bold;
   border-radius: 0;
-  color: white;
+  color: rgb(247, 250, 232);
   border: 2px solid white;
+  
 }
 
 .contact-me:hover{
-  color: rgba(0,0,0,0.6) !important;
-  background-color: white;
+  color: rgba(0,0,0,0.7) !important;
+  background-color: rgb(247, 250, 232);
 }
 
 
 .star-scroll a{
-  color: white;
+  color: rgb(247, 250, 232);
   transition: 200ms;
 }
 
@@ -193,6 +99,8 @@ a{
   text-decoration: none;
   transform: scale(1.2);
 }
+
+
 
 
 @keyframes shrink-text
