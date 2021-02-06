@@ -38,6 +38,8 @@ html, body{
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
   transform: translate(0, -50%);
+  display: block;
+  mix-blend-mode: screen;
 }
 
 .star-scroll{
@@ -53,7 +55,7 @@ html, body{
 
 @media (max-width: 991px) {
   .star-scroll{
-    bottom:55px;
+    bottom: 75px;
   }
 }
 
@@ -80,14 +82,21 @@ a{
   font-weight: bold;
   border-radius: 0;
   color: rgb(247, 250, 232);
-  border: 2px solid white;
-  
+  border: 2px solid rgb(247, 250, 232);;
 }
 
 .contact-me:hover{
-  color: rgba(0,0,0,0.7) !important;
+  color: rgba(0,0,0,1);
   background-color: rgb(247, 250, 232);
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .contact-me:hover{
+    color: rgba(0,0,0,0.7);
+    background-color: rgb(247, 250, 232);
+  }
+}
+
 
 .star-scroll a{
   color: rgb(247, 250, 232);
@@ -98,6 +107,8 @@ a{
   text-decoration: none;
   transform: scale(1.2);
 }
+
+
 
 
 @keyframes shrink-text
